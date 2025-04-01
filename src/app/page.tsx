@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HeroPage from "./components/heroPage";
 import OffersComp from "./components/offers";
 import WhoWeAre from "./components/weAre";
