@@ -5,7 +5,6 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 
 const ContactUs = () => {
-    // const [content, setContent] = useState("<p>YOUR MESSAGE</p>");
   return (
     <div className='w-full lg:h-[800px] h-[1200px] relative lg:pt-10'>
         <img className='w-full h-full object-cover' src="./shape.jpg" alt="" />
