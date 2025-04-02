@@ -53,7 +53,7 @@ const Page = () => {
                 </div>
             </div>
             <div className='lg:w-[80%] w-full pl-2 lg:pl-0'>
-                <p className='text-black font-bold text-[20px]'>Here's what to know about this project</p>
+                <p className='text-black font-bold text-[20px]'>Here is what to know about this project</p>
             </div>
             <div className='lg:w-[80%] w-[95%] flex flex-col gap-4'>
                 <p className='text-gray-500'>Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Asperiores, repellat aliquid. 
