@@ -7,13 +7,16 @@ import { FaCheckCircle } from "react-icons/fa";
 const WhoWeAre = () => {
   return (
     <div className='w-full flex relative items-center justify-center bg-white'>
-        <div className='lg:w-[80%] w-full flex flex-col-reverse lg:flex-row pt-[100px] pb-[100px]'>
+        <div className='lg:w-[80%] w-full flex flex-col-reverse lg:flex-row pt-[100px] lg:pb-[100px]'>
             <div className='lg:w-[50%] w-full'>
-                <div className="relative overflow-hidden group">
-                    <img 
-                        className="w-full h-full object-contain transition-all duration-1000"
-                        src="./about-1.jpg" 
-                        alt="pics"
+                <div className="relative lg:h-screen h-[500px] overflow-hidden group">
+                    <Image
+                        src="/about-1.jpg" 
+                        alt="Background"
+                        fill
+                        priority
+                        sizes='fill'
+                        className="w-full h-full lg:object-contain transition-all duration-1000"
                     />
                     
                     {/* Light sweep effect */}
@@ -35,23 +38,24 @@ const WhoWeAre = () => {
                     </div>
                 </div>
                 <div className='absolute hidden lg:flex top-[20%] left-[42%] rounded-2xl bg-white p-1'>
-                    {/* <img src="./about-2.jpg" className='w-full h-full ' alt="" /> */}
                     <div className="w-[200px] h-[300px] relative overflow-hidden group">
-                    <img 
-                        className="w-full h-full rounded-2xl transition-all duration-1000"
-                        src="./about-2.jpg" 
-                        alt="pics"
-                    />
-                    
-                    {/* Light sweep effect */}
-                    <div className="
-                        absolute inset-0
-                        bg-gradient-to-r from-transparent via-white/30 to-transparent
-                        bg-[length:200%_100%] bg-left
-                        opacity-0
-                        transition-all duration-500 ease-in-out
-                        group-hover:opacity-100 group-hover:bg-right
-                    "></div>
+                        <Image 
+                            className="w-[100%] h-full rounded-2xl transition-all duration-1000"
+                            src="/about-2.jpg" 
+                            alt="pics"
+                            fill
+                            sizes='fill'
+                        />
+                        
+                        {/* Light sweep effect */}
+                        <div className="
+                            absolute inset-0
+                            bg-gradient-to-r from-transparent via-white/30 to-transparent
+                            bg-[length:200%_100%] bg-left
+                            opacity-0
+                            transition-all duration-500 ease-in-out
+                            group-hover:opacity-100 group-hover:bg-right
+                        "></div>
                 </div>
                 </div>
             </div>
@@ -84,16 +88,7 @@ const WhoWeAre = () => {
                             <p>Residential Business Installation</p>
                         </div>
                     </div>
-                    <div className='flex flex-col bg:flex-row lg:items-center justify-center pt-12 gap-6 lg:gap-3'>
-                        <div className='w-full flex items-center gap-2'>
-                            <div className='w-[70px] h-[70px] rounded-[50%] bg-blue-400'>
-                                {/* <img src="" alt="" /> */}
-                            </div>
-                            <div className='flex flex-col justify-center'>
-                                <p className='font-bold'>Ekele Jerry</p>
-                                <p>Founder of company</p>
-                            </div>
-                        </div>
+                    <div className='flex items-center pt-12 gap-6 lg:gap-3'>
                         <div>
                             <button className='relative bg-[#336ae9] text-white p-3 cursor-pointer overflow-hidden group'>
                             <span className='relative z-10 text-[15px] font-bold '>EXPLORE NOW</span>

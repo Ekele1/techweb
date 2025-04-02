@@ -3,11 +3,12 @@ import { RiHandCoinLine } from "react-icons/ri";
 import { BsPersonArmsUp } from "react-icons/bs";
 import { BsAward } from "react-icons/bs";
 import { GiTeamUpgrade } from "react-icons/gi";
+import Image from 'next/image';
 
 const NumberCount = () => {
   return (
     <div className='w-full lg:h-[400px] h-[1000px] relative flex items-center justify-center'>
-        <img className='w-full h-full object-cover' src="./7am.jpg" alt="" />
+        <Image fill priority sizes='fill' className='w-full h-full object-cover' src="/7am.jpg" alt="" />
         <div className='w-[70%] absolute flex flex-col lg:flex-row justify-between gap-10 lg:gap-0'>
             <div className='lg:w-[20%] w-full flex flex-col items-center justify-center gap-3'>
                 <div className='w-[100px] h-[100px] bg-black flex items-center justify-center'>

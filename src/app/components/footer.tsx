@@ -5,6 +5,7 @@ import { FaSquareInstagram } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 import { MdMailOutline } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -61,25 +62,25 @@ const Footer = () => {
                     </div>
                     <div className='w-full h-[160px] flex flex-col justify-between'>
                         <div className='flex w-full h-[48%] justify-between'>
-                            <div className='w-[32%] h-full'>
-                                <img className='w-full h-full object-cover' src="./robot.jpg" alt="pic" />
+                            <div className='w-[32%] h-full relative'>
+                                <Image sizes='fill' fill className='w-full h-full object-cover' src="/robot.jpg" alt="pic" />
                             </div>
-                            <div className='w-[32%] h-full'>
-                                <img className='w-full h-full object-cover' src="./board.jpg" alt="pic" />
+                            <div className='w-[32%] h-full relative'>
+                                <Image sizes='fill' fill className='w-full h-full object-cover' src="/board.jpg" alt="pic" />
                             </div>
-                            <div className='w-[32%] h-full'>
-                                <img className='w-full h-full object-cover' src="./type.jpg" alt="pic" />
+                            <div className='w-[32%] h-full relative'>
+                                <Image sizes='fill' fill className='w-full h-full object-cover' src="/type.jpg" alt="pic" />
                             </div>
                         </div>
                         <div className='flex w-full h-[48%] justify-between'>
-                            <div className='w-[32%] h-full'>
-                                <img className='w-full h-full object-cover' src="./project-thumb-4.jpg" alt="pic" />
+                            <div className='w-[32%] h-full relative'>
+                                <Image sizes='fill' fill className='w-full h-full object-cover' src="/project-thumb-4.jpg" alt="pic" />
                             </div>
-                            <div className='w-[32%] h-full'>
-                                <img className='w-full h-full object-cover' src="./project-thumb-5.jpg" alt="pic" />
+                            <div className='w-[32%] h-full relative'>
+                                <Image sizes='fill' fill className='w-full h-full object-cover' src="/project-thumb-5.jpg" alt="pic" />
                             </div>
-                            <div className='w-[32%] h-full'>
-                                <img className='w-full h-full object-cover' src="./project-thumb-6.jpg" alt="pic" />
+                            <div className='w-[32%] h-full relative'>
+                                <Image sizes='fill' fill className='w-full h-full object-cover' src="/project-thumb-6.jpg" alt="pic" />
                             </div>
                         </div>
                     </div>

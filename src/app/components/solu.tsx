@@ -1,9 +1,10 @@
 import React from 'react'
+import Image from 'next/image';
 
 const Solution = () => {
   return (
     <div className='w-full h-[500px] relative flex items-center justify-center'>
-        <img className='w-full h-full object-cover' src="./6amt.jpg" alt="" />
+        <Image fill priority className='w-full h-full object-cover' src="/6amt.jpg" alt="" />
         <div className='absolute w-[95%] h-[95%] border-[1px] border-gray-200 flex flex-col items-center justify-center'>
             <p className='lg:text-[50px] text-[30px] font-bold text-white w-[60%] lg:w-full flex justify-center'>IT Solutions & Services Right</p>
             <p className='lg:text-[50px] text-[30px] font-bold text-white'>At Your Fingertips</p>

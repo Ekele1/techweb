@@ -2,12 +2,13 @@ import React from 'react'
 import { BsDashLg } from "react-icons/bs";
 import { FcIdea } from "react-icons/fc";
 import { FaCheckCircle } from "react-icons/fa";
+import Image from 'next/image';
 
 const WhyChooseUs = () => {
   return (
     <div className='w-full h-screen flex flex-col lg:flex-row gap-4'>
-        <div className='lg:w-[50%] w-full h-full'>
-            <img className='w-full h-full object-cover' src="./image-4.jpg" alt="" />  
+        <div className='lg:w-[50%] w-full h-full relative'>
+            <Image priority fill sizes='fill' className='w-full h-full object-cover' src="/image-4.jpg" alt="" />  
         </div>
         <div className='lg:w-[50%] w-full h-full flex items-center justify-center'>
             <div className='lg:w-[80%] w-[95%] lg:h-[85%] flex flex-col'>

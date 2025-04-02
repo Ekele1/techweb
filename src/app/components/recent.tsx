@@ -1,5 +1,6 @@
 import React from 'react'
 import { BsDashLg } from "react-icons/bs";
+import Image from 'next/image';
 
 const RecentWorks = () => {
   return (
@@ -24,7 +25,7 @@ const RecentWorks = () => {
             {/* Mobile: Single column (1 image) */}
             <div className='flex flex-col gap-4 md:hidden'>
                 <div className='w-full h-[370px] bg-blue-400 relative'>
-                <img className='w-full h-full object-cover' src="./project-1.jpg" alt="Digital Marketing" />
+                <Image fill priority sizes='fill' className='w-full h-full object-cover' src="/project-1.jpg" alt="Digital Marketing" />
                 <div className='w-full absolute flex flex-col gap-3 items-center justify-center bottom-[10%]'>
                     <p className='text-[25px] text-white font-bold'>Digital Marketing</p>
                     <p className='text-blue-500'>Technology / Marketing</p>
@@ -35,7 +36,7 @@ const RecentWorks = () => {
             {/* Medium: Two columns (2 images) */}
             <div className='hidden md:grid md:grid-cols-2 lg:hidden gap-4'>
                 <div className='w-full h-[370px] bg-blue-400 relative'>
-                <img className='w-full h-full object-cover' src="./project-1.jpg" alt="Digital Marketing" />
+                <Image fill priority sizes='fill' className='w-full h-full object-cover' src="/project-1.jpg" alt="Digital Marketing" />
                 <div className='w-full absolute flex flex-col gap-3 items-center justify-center bottom-[10%]'>
                     <p className='text-[25px] text-white font-bold'>Digital Marketing</p>
                     <p className='text-blue-500'>Technology / Marketing</p>
@@ -54,9 +55,9 @@ const RecentWorks = () => {
             <div className='hidden lg:flex lg:items-center lg:justify-between lg:gap-4'>
                 {[1, 2, 3, 4].map((item) => (
                 <div key={item} className='w-[23%] h-[370px] bg-blue-400 relative'>
-                    <img 
+                    <Image fill priority sizes='fill' 
                     className='w-full h-full object-cover' 
-                    src={`./project-${item}.jpg`} 
+                    src={`/project-${item}.jpg`} 
                     alt={item === 1 ? "Digital Marketing" : 
                         item === 2 ? "Analytic Solution" : 
                         item === 3 ? "Tech Solution" : "Web"} 

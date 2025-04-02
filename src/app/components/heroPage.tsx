@@ -8,6 +8,7 @@ const HeroPage = () => {
             src="/s1-1.jpg"
             alt="Background"
             fill
+            priority
             className="object-cover"
         />
         <div className="absolute inset-0 " />

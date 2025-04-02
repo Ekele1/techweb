@@ -2,12 +2,19 @@
 import React from 'react'
 import { BsDashLg } from "react-icons/bs";
 import { FaPhoneAlt } from "react-icons/fa";
+import Image from 'next/image';
 
 
 const ContactUs = () => {
   return (
     <div className='w-full lg:h-[800px] h-[1200px] relative lg:pt-10'>
-        <img className='w-full h-full object-cover' src="./shape.jpg" alt="" />
+        <Image 
+          className='w-full h-full object-cover absolute' 
+          src="/shape.jpg" 
+          alt="background" 
+          fill
+          priority
+        />
         <div className='w-full h-full absolute flex  items-center justify-center bottom-[-20px]'>
             <div className='lg:w-[80%] w-[95%] lg:h-[73%] flex flex-col-reverse lg:flex-row gap-6 justify-between'>
                 <div className='lg:w-[45%] w-full h-full bg-[#336ae9] rounded-[20px] p-5 flex flex-col gap-[30px]'>
