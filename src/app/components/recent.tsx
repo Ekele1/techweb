@@ -43,7 +43,7 @@ const RecentWorks = () => {
                 </div>
                 </div>
                 <div className='w-full h-[370px] bg-blue-400 relative'>
-                <Image fill priority sizes='fill' className='w-full h-full object-cover' src="./project-2.jpg" alt="Analytic Solution" />
+                <Image fill priority sizes='fill' className='w-full h-full object-cover' src="/project-2.jpg" alt="Analytic Solution" />
                 <div className='w-full absolute flex flex-col gap-3 items-center justify-center bottom-[10%]'>
                     <p className='text-[25px] text-white font-bold'>Analytic Solution</p>
                     <p className='text-blue-500'>Agency / Branding</p>
