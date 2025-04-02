@@ -12,7 +12,7 @@ const RecentWorks = () => {
                         <p>RECENTLY COMPLETED WORK</p>
                         <BsDashLg size={40}/>
                     </div>
-                    <p className='lg:text-[45px] text-[30px] font-bold'>Improve & Enhance the Business Projects</p>
+                    <p className='lg:text-[45px] text-[30px] font-bold text-black'>Improve & Enhance the Business Projects</p>
                 </div>
                 <div className='lg:w-[50%] w-full flex items-center justify-center'>
                     <p className='text-gray-500'>

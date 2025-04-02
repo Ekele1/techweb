@@ -16,7 +16,7 @@ const WhoWeAre = () => {
                         fill
                         priority
                         sizes='fill'
-                        className="w-full h-full lg:object-contain transition-all duration-1000"
+                        className="w-full h-full object-contain transition-all duration-1000"
                     />
                     
                     {/* Light sweep effect */}
@@ -59,7 +59,7 @@ const WhoWeAre = () => {
                 </div>
                 </div>
             </div>
-            <div className='lg:w-[50%] w-full flex justify-end'>
+            <div className='lg:w-[50%] w-full flex justify-end text-black'>
                 <div className='lg:w-[70%] w-full p-2'>
                     <div className='flex items-center text-[#336ae9] font-semibold'>
                         <p>WHO WE ARE</p>

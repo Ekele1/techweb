@@ -26,13 +26,13 @@ const Header = () => {
       <header className='w-full flex items-center justify-center bg-white fixed z-50 shadow-sm'>
         <div className='lg:w-[80%] w-[98%] h-[70px] flex items-center justify-between relative'>
           {/* Logo Section */}
-          <Link href="/" className='flex items-center gap-2'>
+          <Link href="/" className='flex items-center gap-2 text-black'>
             <GiSpiderWeb size={35} className="text-blue-600" />
             <p className='lg:text-[25px] text-[18px] font-bold'>TechWeb</p>
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className='lg:flex items-center gap-4 pl-2 pr-2 hidden'>
+          <nav className='lg:flex items-center gap-4 pl-2 pr-2 hidden text-black'>
             {navItems.map((item) => (
               <Link
                 key={item.label}

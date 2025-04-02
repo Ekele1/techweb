@@ -17,7 +17,7 @@ const OffersComp = () => {
               <div className='flex-1 flex items-center justify-center'>
                 <GiGlobe className='text-[#336ae9] text-[60px] group-hover:text-white transition-all duration-300'/>
               </div>
-              <div className='pb-5 flex flex-col items-center font-bold'>
+              <div className='pb-5 flex flex-col items-center font-bold text-black'>
                 <p className='group-hover:text-white transition-all duration-300'>Global</p>
                 <p className='group-hover:text-white transition-all duration-300'>Networking</p>
               </div>
@@ -39,7 +39,7 @@ const OffersComp = () => {
               <div className='flex-1 flex items-center justify-center'>
                 <SiAwssecretsmanager className='text-[#336ae9] text-[60px] group-hover:text-white transition-all duration-300'/>
               </div>
-              <div className='pb-5 flex flex-col items-center font-bold'>
+              <div className='pb-5 flex flex-col items-center font-bold text-black'>
                 <p className='group-hover:text-white transition-all duration-300'>Website</p>
                 <p className='group-hover:text-white transition-all duration-300'>Management</p>
               </div>
@@ -61,7 +61,7 @@ const OffersComp = () => {
               <div className='flex-1 flex items-center justify-center'>
                 <IoIosDesktop className='text-[#336ae9] text-[60px] group-hover:text-white transition-all duration-300'/>
               </div>
-              <div className='pb-5 flex flex-col items-center font-bold'>
+              <div className='pb-5 flex flex-col items-center font-bold text-black'>
                 <p className='group-hover:text-white transition-all duration-300'>Website</p>
                 <p className='group-hover:text-white transition-all duration-300'>Developement</p>
               </div>
@@ -83,7 +83,7 @@ const OffersComp = () => {
               <div className='flex-1 flex items-center justify-center'>
                 <MdOutlinePhonelinkSetup className='text-[#336ae9] text-[60px] group-hover:text-white transition-all duration-300'/>
               </div>
-              <div className='pb-5 flex flex-col items-center font-bold'>
+              <div className='pb-5 flex flex-col items-center font-bold text-black'>
                 <p className='group-hover:text-white transition-all duration-300'>UI/UX Design</p>
                 <p className='group-hover:text-white transition-all duration-300'>Services</p>
               </div>
@@ -97,7 +97,7 @@ const OffersComp = () => {
             '></div>
           </div>
         </div>
-        <div className='w-full flex items-center justify-center'>
+        <div className='w-full flex items-center justify-center text-black'>
           <p>IT Technology services tailored to your bussiness.</p>
         </div>
     </div>

@@ -40,7 +40,7 @@ const ContactUs = () => {
                         SEND MESSAGE
                     </button>
                 </div>
-                <div className='lg:w-[50%] w-full h-full flex flex-col pt-10 gap-2'>
+                <div className='lg:w-[50%] w-full h-full flex flex-col pt-10 gap-2 text-black'>
                     <div className='w-full flex text-[#336ae9] font-semibold'>
                         <p>CONTACT US</p>
                         <BsDashLg size={40}/>
