@@ -62,11 +62,11 @@ const Blog = () => {
                             <div className='w-full flex gap-3'>
                                 <div className='flex items-center'>
                                     <FaUser color='blue'/>
-                                    <p className='text-sm'>By Admin</p>
+                                    <p className='text-sm text-black'>By Admin</p>
                                 </div>
                                 <div className='flex items-center'>
                                     <FaTag color='blue'/>
-                                    <p className='text-sm'>{e.admin}</p>
+                                    <p className='text-sm text-black'>{e.admin}</p>
                                 </div>
                             </div>
                             <p className='text-[23px] text-black group-hover:text-[#336ae9] font-bold'>{e.question}</p>
