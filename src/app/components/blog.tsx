@@ -25,7 +25,7 @@ const Blog = () => {
         }
     ]
   return (
-    <div className='w-full flex items-center justify-center lg:pt-30 pt-10 lg:pb-30 pb-10'>
+    <div className='w-full flex items-center justify-center lg:pt-30 pt-10 lg:pb-30 pb-10 bg-white'>
         <div className='lg:w-[80%] w-[95%] flex flex-col gap-7'>
             <div className='w-full flex flex-col items-center justify-center'>
                 <div className='flex items-center text-[#336ae9] font-semibold'>
@@ -74,8 +74,8 @@ const Blog = () => {
                             
                         <div>
                             <button className='relative w-full bg-[#f4f5f9] flex items-center gap-3 text-white p-3 cursor-pointer overflow-hidden'>
-                                <span className='relative z-10 text-[15px] font-bold text-gray-500'>READ MORE</span>
-                                <FaLongArrowAltRight />
+                                <span className='relative z-10 text-[15px] font-bold text-black'>READ MORE</span>
+                                <FaLongArrowAltRight color='black'/>
                                 <div className='absolute top-0 left-0 w-full h-0 bg-[#336ae9] transition-[height] duration-500 ease-[cubic-bezier(0.65,0,0.35,1)] group-hover:h-full'></div>
                             </button>
                         </div>
