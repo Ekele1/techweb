@@ -7,6 +7,7 @@ import RecentWorks from "./components/recent";
 import NumberCount from "./components/numberCount";
 import WhyChooseUs from "./components/whyChoose";
 import ContactUs from "./components/contact";
+import Blog from "./components/blog";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <NumberCount />
       <WhyChooseUs />
       <ContactUs />
+      <Blog />
     </div>
   );
 }
