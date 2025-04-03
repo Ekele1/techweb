@@ -4,7 +4,7 @@ import { FaUser} from "react-icons/fa";
 
 const Page = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full bg-white'>
         <div className='w-full h-[300px] relative'>
             <Image 
                 className="object-cover"
@@ -55,7 +55,7 @@ const Page = () => {
                 est aliquet pellentesque vitae et nunc. Sed vitae leo vitae nisl pellentesque semper.
               </p>
               <div className='w-full border-t-[1px] border-t-gray-300 pt-5'>
-                <p className='font-bold'>2 comments</p>
+                <p className='font-bold text-black'>2 comments</p>
 
                 <div className='w-full flex pt-4 gap-3'>
                   <div className='w-[50px] h-[50px] rounded-[50%] bg-blue-400 flex items-center justify-center'>
@@ -85,20 +85,20 @@ const Page = () => {
                   <p className='font-bold text-black text-[20px]'>Leave a comment</p>
                   <div className='w-full flex justify-between'>
                     <div className='w-[47%]'>
-                      <p>Name</p>
+                      <p className='text-background'>Name</p>
                       <input 
                       className='w-full h-[50px] rounded-md outline-blue-400 pl-2 text-black bg-[#f4f5f9]'
                       type="text" />
                     </div>
                     <div className='w-[47%]'>
-                      <p>email</p>
+                      <p className='text-black'>email</p>
                       <input 
                       className='w-full h-[50px] rounded-md outline-blue-400 pl-2 text-black bg-[#f4f5f9]'
                       type="email" />
                     </div>
                   </div>
                   <div className='w-full'>
-                    <p>Message</p>
+                    <p className='text-black'>Message</p>
                     <textarea 
                       className='w-full h-[150px] bg-[#f4f5f9] p-3 rounded-md outline-blue-400'
                       defaultValue="YOUR MESSAGE"
@@ -113,7 +113,7 @@ const Page = () => {
                 </div>
               </div>
             </div>
-            <div className='lg:w-[30%] w-full flex flex-col gap-5'>
+            <div className='lg:w-[30%] w-full flex flex-col gap-5 text-black'>
               <div className='w-full rounded-[4px] bg-[#f7f6f1] p-4'>
                 <p className='font-bold text-black text-[20px]'>Latest Posts</p>
                 <div className='w-full pt-7 gap-2 cursor-pointer flex flex-col hover:bg-white rounded-[5px] pl-4 pb-3'>
@@ -135,7 +135,7 @@ const Page = () => {
                   <p className='font-bold text-sm'>You should know about bussiness plan</p>
                 </div>
               </div>
-              <div className='w-full rounded-[4px] bg-[#f7f6f1] p-4'>
+              <div className='w-full rounded-[4px] bg-[#f7f6f1] p-4 text-black'>
                 <p className='text-[20px] font-bold'>Categories</p>
                 <div className='w-full h-[50px] rounded-2xl flex items-center cursor-pointer hover:bg-white pl-3 hover:font-bold'>
                   <p>Artificial Intelligence</p>

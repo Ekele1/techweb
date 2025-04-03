@@ -31,7 +31,7 @@ const Page = () => {
         router.push('/newsDetail');
     };
   return (
-    <div className='w-full flex flex-col items-center justify-center'>
+    <div className='w-full flex flex-col items-center justify-center bg-white'>
         <div className='w-full h-[300px] relative'>
             <Image 
                 className="object-cover"
