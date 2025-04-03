@@ -1,7 +1,6 @@
 "use client"
 
 import React from 'react'
-import { BsDashLg } from "react-icons/bs";
 import Image from 'next/image';
 import { FaUser, FaLongArrowAltRight } from "react-icons/fa";
 import { FaTag } from "react-icons/fa6"
