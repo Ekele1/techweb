@@ -24,16 +24,16 @@ const ContactUs = () => {
                     </div>
                     <div className='w-full flex flex-col gap-2 lg:flex-row items-center justify-between'>
                         <input 
-                        className='lg:w-[47%] w-full h-[50px] outline-none pl-3 border-[1px] bg-white border-none'
+                        className='lg:w-[47%] w-full text-black h-[50px] outline-none pl-3 border-[1px] bg-white border-none'
                         placeholder='YOUR NAME'
                         type="text" />
                         <input 
-                        className='lg:w-[47%] w-full h-[50px] outline-none pl-3 border-[1px] bg-white border-none'
+                        className='lg:w-[47%] w-full text-black h-[50px] outline-none pl-3 border-[1px] bg-white border-none'
                         placeholder='YOUR EMAIL'
                         type="email" />
                     </div>
                     <textarea 
-                        className='w-full h-[200px] bg-white p-3 outline-none'
+                        className='w-full h-[200px] text-black bg-white p-3 outline-none'
                         defaultValue="YOUR MESSAGE"
                         />
                     <button className='w-full h-[50px] bg-black text-white'>
@@ -45,14 +45,14 @@ const ContactUs = () => {
                         <p>CONTACT US</p>
                         <BsDashLg size={40}/>
                     </div>
-                    <p className='lg:text-[48px] text-[30px] font-bold leading-[46px]'>Contact Us Let’s Talk Your Any Query.</p>
+                    <p className='lg:text-[48px] text-[30px] font-bold leading-[46px]'>Let's Discuss Your Next Tech Solution</p>
                     <p className='mt-6'>
-                        Witch sotech dolor sit amet consectetur adipiscing elit ultricies, in a dapibus venenatis malesuada 
-                        suspendisse vestibulum massa, auctor lobortis nam etiam netus vel duis. In nec erat eget neque purus 
-                        elementum mauris curabitur.
+                        At our tech company, we're ready to help bring your digital vision to life. Whether you need a custom website, 
+                        innovative software, or expert consultation, our team is here to provide solutions tailored to your specific needs. 
+                        Reach out today to start a conversation about how we can help your business grow in the digital space.
                     </p>
                     <div className='w-full flex flex-col lg:flex-row lg:items-center justify-between'>
-                        <p>Or You may Call Us For Appointment</p>
+                        <p>Prefer to speak directly? Call us anytime</p>
                         <div className='flex items-center p-3 gap-2 bg-white'>
                             <FaPhoneAlt  className='text-[20px] text-[#336ae9]'/>
                             <p>(+234 09154382278)</p>

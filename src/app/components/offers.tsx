@@ -1,5 +1,5 @@
 import React from 'react'
-import { GiGlobe } from "react-icons/gi";
+import { IoMdAnalytics } from "react-icons/io";
 import { SiAwssecretsmanager } from "react-icons/si";
 import { IoIosDesktop } from "react-icons/io";
 import { MdOutlinePhonelinkSetup } from "react-icons/md";
@@ -15,11 +15,11 @@ const OffersComp = () => {
             {/* Content */}
             <div className='relative z-10 h-full flex flex-col'>
               <div className='flex-1 flex items-center justify-center'>
-                <GiGlobe className='text-[#336ae9] text-[60px] group-hover:text-white transition-all duration-300'/>
+                <IoMdAnalytics className='text-[#336ae9] text-[60px] group-hover:text-white transition-all duration-300'/>
               </div>
               <div className='pb-5 flex flex-col items-center font-bold text-black'>
-                <p className='group-hover:text-white transition-all duration-300'>Global</p>
-                <p className='group-hover:text-white transition-all duration-300'>Networking</p>
+                <p className='group-hover:text-white transition-all duration-300'>Data</p>
+                <p className='group-hover:text-white transition-all duration-300'>Analysis</p>
               </div>
             </div>
             

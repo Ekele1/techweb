@@ -91,8 +91,8 @@ const WhoWeAre = () => {
                     <div className='flex items-center pt-12 gap-6 lg:gap-3'>
                         <div>
                             <button className='relative bg-[#336ae9] text-white p-3 cursor-pointer overflow-hidden group'>
-                            <span className='relative z-10 text-[15px] font-bold '>EXPLORE NOW</span>
-                            <div className='absolute top-0 left-0 w-full h-0 bg-black transition-[height] duration-500 ease-[cubic-bezier(0.65,0,0.35,1)] group-hover:h-full'></div>
+                                <span className='relative z-10 text-[15px] font-bold '>EXPLORE NOW</span>
+                                <div className='absolute top-0 left-0 w-full h-0 bg-black transition-[height] duration-500 ease-[cubic-bezier(0.65,0,0.35,1)] group-hover:h-full'></div>
                             </button>
                         </div>
                     </div>

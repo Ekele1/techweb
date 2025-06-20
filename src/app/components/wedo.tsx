@@ -28,8 +28,8 @@ const WhatWeDo = () => {
                             </div>
                             <div className='pb-5 flex flex-col items-center justify-center gap-3'>
                                 <p className='group-hover:text-white transition-all duration-300 text-white font-bold'>Website Development</p>
-                                <p className='group-hover:text-white transition-all duration-300 text-white text-[15px]'>Donec suscipit ante ipsum. Donec</p>
-                                <p className='group-hover:text-white transition-all duration-300 text-white text-[15px]'>convallis quality torto</p>
+                                <p className='group-hover:text-white transition-all duration-300 text-white text-[15px]'>Custom-built websites tailored to</p>
+                                <p className='group-hover:text-white transition-all duration-300 text-white text-[15px]'>your business needs and goals</p>
                             </div>
                             <div className='w-full pt-4 pb-4 flex items-center justify-center gap-3 text-white font-bold'>
                                 <p className=''>Read More</p>
@@ -52,8 +52,8 @@ const WhatWeDo = () => {
                             </div>
                             <div className='pb-5 flex flex-col items-center justify-center gap-3'>
                                 <p className='group-hover:text-white transition-all duration-300 text-white font-bold'>UI/UX Designing</p>
-                                <p className='group-hover:text-white transition-all duration-300 text-white text-[15px]'>Donec suscipit ante ipsum. Donec</p>
-                                <p className='group-hover:text-white transition-all duration-300 text-white text-[15px]'>convallis quality torto</p>
+                                <p className='group-hover:text-white transition-all duration-300 text-white text-[15px]'>Beautiful, intuitive interfaces that</p>
+                                <p className='group-hover:text-white transition-all duration-300 text-white text-[15px]'>enhance user engagement</p>
                             </div>
                             <div className='w-full pt-4 pb-4 flex items-center justify-center gap-3 text-white font-bold'>
                                 <p className=''>Read More</p>
@@ -75,8 +75,8 @@ const WhatWeDo = () => {
                             </div>
                             <div className='pb-5 flex flex-col items-center justify-center gap-3'>
                                 <p className='group-hover:text-white transition-all duration-300 text-white font-bold'>Digital Marketing</p>
-                                <p className='group-hover:text-white transition-all duration-300 text-white text-[15px]'>Donec suscipit ante ipsum. Donec</p>
-                                <p className='group-hover:text-white transition-all duration-300 text-white text-[15px]'>convallis quality torto</p>
+                                <p className='group-hover:text-white transition-all duration-300 text-white text-[15px]'>Strategic campaigns to boost your</p>
+                                <p className='group-hover:text-white transition-all duration-300 text-white text-[15px]'>online presence and conversions</p>
                             </div>
                             <div className='w-full pt-4 pb-4 flex items-center justify-center gap-3 text-white font-bold'>
                                 <p className=''>Read More</p>
@@ -98,8 +98,8 @@ const WhatWeDo = () => {
                             </div>
                             <div className='pb-5 flex flex-col items-center justify-center gap-3'>
                                 <p className='group-hover:text-white transition-all duration-300 text-white font-bold'>Data Analysis</p>
-                                <p className='group-hover:text-white transition-all duration-300 text-white text-[15px]'>Donec suscipit ante ipsum. Donec</p>
-                                <p className='group-hover:text-white transition-all duration-300 text-white text-[15px]'>convallis quality torto</p>
+                                <p className='group-hover:text-white transition-all duration-300 text-white text-[15px]'>Actionable insights from your data</p>
+                                <p className='group-hover:text-white transition-all duration-300 text-white text-[15px]'>to drive business decisions</p>
                             </div>
                             <div className='w-full pt-4 pb-4 flex items-center justify-center gap-3 text-white font-bold'>
                                 <p className=''>Read More</p>
