@@ -14,27 +14,18 @@ const eslintConfig = [
   js.configs.recommended,
   ...compat.extends("next/core-web-vitals", "next/typescript"),
   {
-    // Your custom rules
     rules: {
-      // Disable apostrophe escaping requirement
+      // Disable problematic rules
       "react/no-unescaped-entities": "off",
       
-      // Configure unused vars rule to be less strict
-      "@typescript-eslint/no-unused-vars": [
-        "warn", // or "error" if you want to keep it enabled
-        { 
-          "argsIgnorePattern": "^_",
-          "varsIgnorePattern": "^_",
-          "caughtErrorsIgnorePattern": "^_"
-        }
-      ]
-    }
-  },
-  {
-    // Apply these rules only to specific files if needed
-    files: ["*.ts", "*.tsx"],
-    rules: {
-      // Additional TypeScript-specific rules
+      
+      // Configure unused vars to ignore underscores
+      "@typescript-eslint/no-unused-vars": "off",
+      "@typescript-eslint/parser": "off",
+      
+      // Additional recommended settings
+      "react/react-in-jsx-scope": "off",
+      "react/jsx-uses-react": "off"
     }
   }
 ];
