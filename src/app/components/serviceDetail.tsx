@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-// import { ServiceData } from '@/app/components/types/data';
 import { servicesData } from '@/app/components/service';
 
 interface ServicePageProps {

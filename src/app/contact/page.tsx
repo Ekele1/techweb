@@ -88,7 +88,7 @@ const Page = () => {
                         </div>
                         <div className='flex flex-col gap-3'>
                             <p className='text-black font-bold'>Have any question?</p>
-                            <p className='text-gray-600'>+234 9154382278</p>
+                            <p className='text-gray-600'>&#43;234 9154382278</p>
                         </div>
                     </div>
                     <div className='w-full flex gap-5'>
@@ -106,7 +106,7 @@ const Page = () => {
                         </div>
                         <div className='flex flex-col gap-3'>
                             <p className='text-black font-bold'>Visit anytime</p>
-                            <p className='text-gray-600'>flat 3, kekere bus stop, beside z-bet kitchen Ajah lagos Nigeria</p>
+                            <p className='text-gray-600'>flat 3, kekere bus stop, beside z&ndash;bet kitchen Ajah lagos Nigeria</p>
                         </div>
                     </div>
                 </div>
