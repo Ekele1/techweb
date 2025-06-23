@@ -98,10 +98,10 @@ const Services = () => {
                             of quality and performance.
                         </p>
                         <p className='text-gray-500 text-sm'>
-                            With over a decade of industry experience, we've helped businesses of all sizes navigate digital transformation. 
+                            With over a decade of industry experience, we&apos;ve helped businesses of all sizes navigate digital transformation. 
                             Our approach focuses on understanding your unique challenges and delivering customized solutions that provide 
                             measurable results. We stay ahead of industry trends to offer cutting-edge services that keep you competitive 
-                            in today's fast-paced digital landscape.
+                            in today&apos;s fast-paced digital landscape.
                         </p>
                         <p className='text-[25px] font-semibold'>Our Service Methodology</p>
                         <p className='text-gray-500 text-sm'>
