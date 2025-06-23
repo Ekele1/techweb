@@ -73,7 +73,7 @@ const Page = () => {
                     sizes='fill'
                 />
             </div>
-            <div className='lg:w-[80%] w-full h-[140px] bg-[#f5f5f5] rounded-2xl flex items-center justify-around'>
+            <div className='lg:w-[80%] overflow-x-auto gap-4 w-full h-[140px] bg-[#f5f5f5] rounded-2xl flex items-center justify-around'>
                 <div>
                     <p className='text-gray-600'>Date</p>
                     <p className='text-black'>{project.date}</p>

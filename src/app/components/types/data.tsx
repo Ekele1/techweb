@@ -20,3 +20,38 @@ export interface Project {
   outcome?: string;
   testimonial: Testimonial;
 }
+
+export type ServicePhase = {
+  phase: string;
+  description: string;
+  tools: string[];
+};
+
+export type ServiceBenefit = {
+  title: string;
+  description: string;
+  icon: string;
+};
+
+export type ServiceFAQ = {
+  question: string;
+  answer: string;
+};
+
+export type ServiceOverview = {
+  description: string;
+  highlights: string[];
+};
+
+export type ServiceData = {
+  id: number;
+  slug: string;
+  title: string;
+  tagline: string;
+  heroImage: string;
+  overview: ServiceOverview;
+  process: ServicePhase[];
+  benefits: ServiceBenefit[];
+  useCases: string[];
+  faqs: ServiceFAQ[];
+};
